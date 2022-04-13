@@ -45,26 +45,26 @@ Step-by-step instructions on using this template:
   - The package should be available at https://pypi.org/project/types-foo-bar/
   - Download your package and test it again as a final check
 
-# changeme-types-package-name
+# types-pysaml2
 
 This is a package containing type annotations
-for [changeme-package-name](https://pypi.org/project/changeme-package-name/).
+for [pysaml2](https://pypi.org/project/pysaml2/).
 
 ### Installing:
 
 Simply run the following in the environment in which you want to install this package:
 
 ```shell
-# install changeme-types-package-name
-$ python -m pip install changeme-types-package-name
+# install types-pysaml2
+$ python -m pip install types-pysaml2
 ```
 
 or add it to your requirements file.
 
 ### Developing
 
-This is a partial stub package, only covering a part of the functions and objects available in `changeme-package-name`.
-Contributions (both in adding stubs for more functions, or keeping up to date with `changeme-package-name` itself) are
+This is a partial stub package, only covering a part of the functions and objects available in `pysaml2`.
+Contributions (both in adding stubs for more functions, or keeping up to date with `pysaml2` itself) are
 welcome.
 
 All the formatting is done using [pre-commit](https://pre-commit.com/). To use this, run the following:
