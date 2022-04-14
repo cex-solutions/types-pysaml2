@@ -18,11 +18,11 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="changeme-types-package-name",
-    description="Type Stubs for changeme-package-name",
+    name="types-pysaml2",
+    description="Type Stubs for pysaml2",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/cex-solutions/changeme-package-name",
+    url="https://github.com/cex-solutions/pysaml2",
     author="Binovate Labs",
     author_email="cex-dev@binovate.com",
     classifiers=[
@@ -37,20 +37,27 @@ setup(
         "Programming Language :: Python :: 3.10",
     ],
     license="GPLv3",
-    keywords="stubs",
+    keywords="stubs pysaml2 pysaml saml2 saml",
     package_data={
-        "changeme-package-name-stubs": [
-            item.split("changeme-package-name-stubs/")[-1] for item in glob.glob("**/*.pyi", recursive=True)
-        ]
+        "saml2-stubs": [item.split("saml2-stubs/")[-1] for item in glob.glob("**/*.pyi", recursive=True)]
         + ["METADATA.toml"]
     },
-    packages=["changeme-package-name-stubs"],
+    packages=["saml2-stubs"],
     python_requires=">=3.7, <4",
     install_requires=[],
-    extras_require={"dev": ["mypy==0.942", "pipenv-setup==3.2.0", "twine==4.0.0"]},
+    extras_require={
+        "dev": [
+            "pysaml2==7.1.2",
+            "types-six==1.16.13",
+            "types-requests==2.27.16",
+            "mypy==0.942",
+            "pipenv-setup==3.2.0",
+            "twine==4.0.0",
+        ]
+    },
     dependency_links=[],
     project_urls={
-        "Bug Reports": "https://github.com/cex-solutions/changeme-types-package-name/issues",
-        "Source": "https://github.com/cex-solutions/changeme-types-package-name",
+        "Bug Reports": "https://github.com/cex-solutions/types-pysaml2/issues",
+        "Source": "https://github.com/cex-solutions/types-pysaml2",
     },
 )
