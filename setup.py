@@ -50,7 +50,7 @@ setup(
             "pysaml2==7.1.2",
             "types-six==1.16.18",
             "types-requests==2.28.2",
-            "mypy==0.961",
+            "mypy==0.971",
             "pipenv-setup==3.2.0",
             "twine==4.0.1",
         ]
