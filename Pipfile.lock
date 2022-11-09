@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "782f34dbc62f8a27350138d67fefda6ee97080a79b936b209321ba68896b04e7"
+            "sha256": "f4d4efd512e3e452e43b892835cbb2216ad3fceb602a0f499630adc0baf53597"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -548,11 +548,11 @@
         },
         "types-requests": {
             "hashes": [
-                "sha256:14941f8023a80b16441b3b46caffcbfce5265fd14555844d6029697824b5a2ef",
-                "sha256:fdcd7bd148139fb8eef72cf4a41ac7273872cad9e6ada14b11ff5dfdeee60ed3"
+                "sha256:bdb1f9811e53d0642c8347b09137363eb25e1a516819e190da187c29595a1df3",
+                "sha256:d4f342b0df432262e9e326d17638eeae96a5881e78e7a6aae46d33870d73952e"
             ],
             "index": "pypi",
-            "version": "==2.28.11.2"
+            "version": "==2.28.11.4"
         },
         "types-six": {
             "hashes": [
@@ -564,10 +564,10 @@
         },
         "types-urllib3": {
             "hashes": [
-                "sha256:a948584944b2412c9a74b9cf64f6c48caf8652cb88b38361316f6d15d8a184cd",
-                "sha256:f6422596cc9ee5fdf68f9d547f541096a20c2dcfd587e37c804c9ea720bf5cb2"
+                "sha256:1807b87b8ee1ae0226813ba2c52330eff20fb2bf6359b1de24df08eb3090e442",
+                "sha256:a188c24fc61a99658c8c324c8dd7419f5b91a0d89df004e5f576869122c1db55"
             ],
-            "version": "==1.26.25.1"
+            "version": "==1.26.25.3"
         },
         "typing-extensions": {
             "hashes": [
@@ -602,11 +602,11 @@
         },
         "wheel": {
             "hashes": [
-                "sha256:3d492ef22379a156ec923d2a77051cedfd4df4b667864e9e41ba83f0b70b7149",
-                "sha256:7a5a3095dceca97a3cac869b8fef4e89b83fafde21b6688f47b6fda7600eb441"
+                "sha256:4066646ef77d0e56cc44004c100381ee1957955cfc3151345dda96886f9896a5",
+                "sha256:f3c99240da8d26989dca2d67a7a431015eb91fb301eecacc6e452133689d9d59"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.38.2"
+            "version": "==0.38.3"
         },
         "xmlschema": {
             "hashes": [
