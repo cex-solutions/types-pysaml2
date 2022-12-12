@@ -52,7 +52,7 @@ setup(
             "types-requests==2.28.11.5",
             "mypy==0.991",
             "pipenv-setup==3.2.0",
-            "twine==4.0.1",
+            "twine==4.0.2",
         ]
     },
     dependency_links=[],
