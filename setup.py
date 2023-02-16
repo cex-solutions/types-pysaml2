@@ -49,7 +49,7 @@ setup(
         "dev": [
             "pysaml2==7.4.0",
             "types-six==1.16.21.4",
-            "types-requests==2.28.11.12",
+            "types-requests==2.28.11.13",
             "mypy==1.0.0",
             "pipenv-setup==3.2.0",
             "twine==4.0.2",
