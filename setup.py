@@ -47,7 +47,7 @@ setup(
     install_requires=[],
     extras_require={
         "dev": [
-            "pysaml2==7.4.0",
+            "pysaml2==7.4.1",
             "types-six==1.16.21.6",
             "types-requests==2.28.11.14",
             "mypy==1.0.1",
