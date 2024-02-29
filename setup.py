@@ -48,7 +48,7 @@ setup(
     extras_require={
         "dev": [
             "pysaml2==7.4.1",
-            "types-six==1.16.21.8",
+            "types-six==1.16.21.20240106",
             "types-requests==2.31.0.20240218",
             "mypy==1.8.0",
             "pipenv-setup==3.2.0",
