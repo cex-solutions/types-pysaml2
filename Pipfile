@@ -5,7 +5,7 @@ name = "pypi"
 # If you edit this file, run `pipenv-setup sync --pipfile --dev` afterwards
 
 [dev-packages]
-pysaml2 = "==7.4.1"
+pysaml2 = "==7.5.0"
 types-six = "==1.16.21.20240106"
 types-requests = "==2.31.0.20240218"
 
