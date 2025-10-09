@@ -47,12 +47,11 @@ setup(
     install_requires=[],
     extras_require={
         "dev": [
-            "pysaml2==7.5.0",
-            "types-six==1.16.21.20240106",
-            "types-requests==2.31.0.20240218",
-            "mypy==1.8.0",
-            "pipenv-setup==3.2.0",
-            "twine==6.0.1",
+            "pysaml2==7.5.4",
+            "types-six==1.17.0.20251009",
+            "types-requests==2.32.4.20250913",
+            "mypy==1.18.2",
+            "twine==6.2.0",
         ]
     },
     dependency_links=[],
