@@ -29,6 +29,7 @@ repos:
     rev: v3.16.0
     hooks:
       - id: reorder-python-imports
+        exclude: ^setup\.py$
         args: [
             "--application-directories=saml2-stubs"
         ]
@@ -44,8 +45,8 @@ repos:
         types:
           - pyi
         additional_dependencies: [
-          flake8-bugbear==21.11.29,
-          flake8-pyi==22.1.0,
+          flake8-bugbear==25.11.29,
+          flake8-pyi==25.5.0,
         ]
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
