@@ -13,7 +13,7 @@ from saml2.client_base import Base
 
 logger: Logger
 
-LogoutResult: TypeAlias = Union[tuple[int, str, list[tuple[str, str]]], list[Any], dict[str, Any]]
+LogoutResult: TypeAlias = Union[tuple[int, str, list[tuple[str, str]], list[Any]], list[Any], dict[str, Any]]
 
 class Saml2Client(Base):
     def prepare_for_authenticate(
