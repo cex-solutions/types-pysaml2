@@ -50,7 +50,7 @@ setup(
         "dev": [
             "pysaml2==7.5.4",
             "types-six==1.17.0.20251009",
-            "types-requests==2.32.4.20250913",
+            "types-requests==2.32.4.20260107",
             "mypy==1.18.2",
             "twine==6.2.0",
         ]
