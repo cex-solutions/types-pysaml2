@@ -52,7 +52,7 @@ setup(
             "types-six==1.17.0.20251009",
             "types-requests==2.32.4.20250913",
             "mypy==1.18.2",
-            "twine==6.2.0",
+            "twine==7.0.0",
         ]
     },
     dependency_links=[],
