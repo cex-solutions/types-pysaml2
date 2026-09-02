@@ -49,9 +49,9 @@ setup(
     extras_require={
         "dev": [
             "pysaml2==7.5.4",
-            "types-six==1.17.0.20251009",
-            "types-requests==2.32.4.20250913",
-            "mypy==1.18.2",
+            "types-six==1.17.0.20260724",
+            "types-requests==2.33.0.20260712",
+            "mypy==1.20.2",
             "twine==6.2.0",
         ]
     },
